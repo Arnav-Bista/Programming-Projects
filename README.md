@@ -1,6 +1,6 @@
 # Break-Even
 
-##Whats Break-Even?
+What's Break-Even?
 
 Break-Even is a full GUI Break Even Grapher coded using Python. It plots a graph with almost all the elements from a perfect Break-Even Graph along with various useful information at its side.
 
