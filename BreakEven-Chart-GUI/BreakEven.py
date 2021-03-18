@@ -97,8 +97,8 @@ class Final(QtWidgets.QMainWindow):
 	
 		self.widget.canvas.ax.axhline(0, color = "black")
 		self.widget.canvas.ax.axvline(0, color = "black", label = "Axis")
-		self.widget.canvas.ax.set_xlim([beq - beq/2, beq + beq/2])
-		
+		#self.widget.canvas.ax.set_xlim([beq - beq/2, beq + beq/2])
+		self.widget.canvas.ax.set_xlim([0, beq + beq/2])
 
 		self.widget.canvas.ax.vlines(x = beq, ymin = 0, ymax = beq*p,linestyle = "--")
 		self.widget.canvas.ax.hlines(y = beq*p,xmin = 0, xmax = beq,linestyle = "--")
