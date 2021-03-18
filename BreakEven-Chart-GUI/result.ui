@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>727</width>
+    <height>478</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="beq_reach_label">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>90</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>BEQ Reached:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="beq_reach_val">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>90</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>val</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="beq_label">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>210</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>BEQ: </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="beq_val">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>210</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>val</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="q_required_label">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>120</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Quantity required:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="q_required_val">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>120</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>val</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="net_profit_label">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>150</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Net Profit:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="net_profit_val">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>150</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>val</string>
+    </property>
+   </widget>
+   <widget class="MplWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>421</width>
+      <height>411</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="price_label">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>270</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Price:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="fc_label">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>300</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Fixed Costs:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="vc_label">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>330</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Variable Costs:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="q_label">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>360</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Quantity</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="p_val">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>270</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>val</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="fc_val">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>300</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>val</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="vc_val">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>330</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>val</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="q_val">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>360</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>val</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="r_label">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>240</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Revelue:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="r_val">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>240</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>val</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MplWidget</class>
+   <extends>QWidget</extends>
+   <header>mplwidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
